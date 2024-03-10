@@ -44,7 +44,7 @@ Selecionei uma imagem e o rosto da pessoa foi detectado em seguida, com o atribu
 
 ![image](inputs/08.png)
 
-Clique aqui para ver o código
+[Clique aqui para ver o código](output/DetectandoRosto.json)
 
 ## Teste 2: Análise de documentos
 Para fazer análise de dados, voltei a página inicial e cliquei em "Optical character recognition" para fazer análise de caracteres.
@@ -59,7 +59,7 @@ A opção "Try it out" já estava marcada, então prossegui e selecionei uma ima
 
 ![image](inputs/11.png)
 
-Clique aqui para ver o código
+[Clique aqui para ver o código](output/AnaliseDeDocumentos.json)
 
 Logo abaixo apareceu próximas etapas
 
@@ -81,7 +81,7 @@ A descrição serve também como acessibilidade.
 
 ![image](inputs/15.png)
 
-Clique aqui para ver o código
+[Clique aqui para ver o código](output/AnaliseDeImagem.json)
 
 Logo abaixo apareceu próximas etapas
 

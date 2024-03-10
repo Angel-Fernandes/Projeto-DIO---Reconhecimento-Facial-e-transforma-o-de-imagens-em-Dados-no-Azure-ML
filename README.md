@@ -1,4 +1,4 @@
-# Projeto-DIO---Reconhecimento-Facial-e-transforma-o-de-imagens-em-Dados-no-Azure-ML
+# Projeto DIO- Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
 Passo a passo do projeto Reconhecimento Facial e Transformação ded imagens em Dados no Azure ML da DIO.
 
@@ -14,64 +14,75 @@ Seguindo o passo a passo da documentação:
 
 ## Teste 1: Criando recurso e detectando rosto
 
-Primeiro precisei criar um recurso de Machine Learning. 
-Cliquei em "Criar recurso" 
-![Img](/01.png)
+Abri o portal Azure  e cliquei em "Create a resourse"
 
-e depois pesquisei por Azure Machine Learning no marketplace. 
-![Img](/02.png)
+![Img](inputs/01.png)
 
-Após encontrar o recurso, crie ele.
+Em seguida em "categorias" cliquei na opção "IA + Machine Learning"
+![Img](inputs/02.png)
 
-![Img](/03.png)
+Pesquisei por "Azure AI services" e cliquei em create, seguindo a documentação.
 
-## Passo 2: Configurando o recurso do Azure Machine Learning
+![Img](inputs/03.png)
 
-Na aba de Noções básica, Detalhes do recurso, informei a assinatura para cobrança no campo Assinatura e depois informei o Grupo de recursos que foi criado.
+Ao criar abri o Vision Studio ([azure.com](https://portal.vision.cognitive.azure.com/gallery/featured))
 
-Após, em Detalhes da área de trabalho, é informei os detalhes do workspace que será criado. 
-Criei o recurso clicando em Consultar + criar. Após a validação ser aprovada, cliquei em "Criar".
-Após o recurso ser criado, cliquei no botão "Ir para o recurso" para acessar a página do recurso.
-Nessa página, existe o botão "Iniciar o estúdio" que redirecionará para o estúdio do Azure Machine Learning.
+![Img](inputs/04.png)
 
-![Img](/04.png)
+Alterei o theme para dark e cliquei em "View all resources" e selecionei o recurso criado "LabRF-TI"  (escolhi esse nome em referência ao nome do laboratório do curso "Reconhecimento Facial e transformação de imagens em Dados no Azure ML") e selecione como "default" e cliquei no x.
+![image](inputs/05.png)
 
-## Passo 3 - Criando o modelo
+Ao clicar no "x" voltei para a página inicial e cliquei em "face"
 
-No estúdio, na página do workspace criado anteriormente, acessei a opção do menu ML automatizado e na página aberto, cliquei em "Novo trabalho de ML automatizado".
+![image](inputs/06.png)
 
-![Img](/05.png)
+Cliquei em "Detect faces in na image" e selecionei o "Try it out"
 
-Segui a documentação completa para preencher
- [https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html]
+![image](inputs/07.png)
 
-![Img](/06.png)
+Selecionei uma imagem e o rosto da pessoa foi detectado em seguida, com o atributo e o código em JSON
 
-Ao final do preenchimento de todas as etapas, enviei o trabalho de treinamento e aguardei a conclusão.
-Após a conclusão do aprendizado de máquina pude observar o resumo do modelo.
+![image](inputs/08.png)
 
-![Img](/07.png)
+Clique aqui para ver o código
 
-E acessei a lista de modelos
+## Teste 2: Análise de documentos
+Para fazer análise de dados, voltei a página inicial e cliquei em "Optical character recognition" para fazer análise de caracteres.
 
-![Img](/08.png)
+![image](inputs/09.png)
+
+Abrindo "Extract text from images"
+
+![image](inputs/10.png)
+
+A opção "Try it out" já estava marcada, então prossegui e selecionei uma imagem e atributo e o código em JSON foi detectado em seguida
+
+![image](inputs/11.png)
+
+Clique aqui para ver o código
+
+Logo abaixo apareceu próximas etapas
+
+![image](inputs/12.png)
+
+## Teste 3 - Análise de imagem
+Voltando a página inicial, novamente, cliquei em image analysis
+
+![image](inputs/13.png)
+
+E escolhi a opção "Add dense captions to images"
+
+![image](inputs/14.png)
+
+Selecionando uma imagem, ele traz toda a descrição em atributos e o código JSON.
+A descrição serve também como acessibilidade.
 
 
-## Passo 4: Métricas do modelo
 
-Para acessar as métricas do modelo treinado, na página do modelo, acesso o link informado em "Criado por trabalho". Também é possível acessar o trabalho informado na opção do menu "Tarefas (jobs)".
+![image](inputs/15.png)
 
-Na página da tarefa, acessei a aba métricas.
+Clique aqui para ver o código
 
-![Img](/09.png)
-![Img](/10.png)
+Logo abaixo apareceu próximas etapas
 
-## Passo 5: Teste do modelo
-
-Na página do modelo, acessei a aba "Pontos de extremidade" 
-
-![Img](/11.png)
-
-Cliquei em "predict-rentals" e em seguida em "testar"
-
-![Img](/12.png)
+![image](inputs/16.png)
